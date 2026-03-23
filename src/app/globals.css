@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Gruvbox Dark palette */
+  --color-bg:      #30302e;
+  --color-surface: #242423;
+  --color-border:  #41413e;
+  --color-fg:      #faf9f5;
+  --color-muted:   #9c9a92;
+  --color-accent:  #d77757;
+  --color-yellow:  #fabd2f;
+  --color-orange:  #fe8019;
+  --color-aqua:    #8ec07c;
+
+  /* Typography */
+  --font-mono: var(--font-ibm-plex-mono), 'IBM Plex Mono', ui-monospace, monospace;
+  --font-pixel: var(--font-pixelify-sans), 'Pixelify Sans', sans-serif;
+
+  /* Border radius */
+  --radius-panel: 5px;
+}
